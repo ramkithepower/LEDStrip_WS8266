@@ -1,0 +1,19 @@
+{
+  "name": "LED for TV Stand",
+  "device_id": "family-room-tv-led",
+  "wifi": {
+    "ssid": "mywifi",
+    "password": "mywifipassword"
+  },
+  "mqtt": {
+    "host": "192.168.0.123",
+    "port": 1883,
+    "base_topic": "devices/",
+    "auth": true,
+    "username": "username",
+    "password": "password"
+  },
+  "ota": {
+    "enabled": true
+  }
+}
